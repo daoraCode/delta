@@ -7,7 +7,6 @@ let name3 = `Severin`;
 console.log(name)
 console.log(name2)
 console.log(name3)
-console.log("----------------------")
 
 let sentence = 'Bonjour, je m\'appelle Severin';
 let sentence2 = "Bonjour, je m'appelle Severin";
