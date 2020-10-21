@@ -42,3 +42,32 @@ console.log(coucou4)
 
 let coucou5 = document.getElementsByClassName("myClass")
 console.log(coucou5)
+
+console.log("----------------SUITE")
+
+let header = document.getElementsByTagName("header")
+
+let elements = header
+console.log(elements)
+
+elements = header[0]
+console.log(elements)
+
+elements = header[0].children[0]
+console.log(elements)
+
+elements = header[0].lastElementChild
+console.log(elements)
+
+
+elements = header[0].firstElementChild
+console.log(elements)
+
+elements = header[0].childElementCount
+console.log(elements)
+
+elements = header[0].parentNode
+console.log(elements)
+
+elements = header[0].parentNode.parentNode
+console.log(elements)
