@@ -1,7 +1,5 @@
 console.log('test')
 
-
-
 // var a = "severin"
 // console.log(a)
 // a = "antony"
