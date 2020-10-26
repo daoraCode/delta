@@ -4,7 +4,7 @@
 
 // Cette action permettre de récupérer ou d'appeler le body afin de le manipuler/le modifier
 let body = document.getElementsByTagName('body')[0]
-console.log(body)
+console.log(typeof body)
 
 
 
@@ -13,7 +13,6 @@ let newh1 = document.createElement('h1')
 newh1.className = 'myh1'
 //------ au méthode possible --------//
 newh1.setAttribute('id', 'myh1')
-
 
 
 
