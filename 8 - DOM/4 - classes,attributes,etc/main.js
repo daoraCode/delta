@@ -1,6 +1,5 @@
 console.log('classes, attributes, etc')
 
-
 let link = document.querySelector('.link')
 console.log(link)
 

@@ -6,15 +6,15 @@ let person = {
     lastName: 'Mboukou',
     age: 26,
     email: 'sm@gmail.com',
-    hobbies: ['Family', 'Cinema', 'Coding', 'Travel']
+    hobbies: ['Family', 'Cinema', 'Coding', 'Travel'],
     adress: {
         city: 'Stains',
         state: 'Paris', 
     }
 }
 
-let val
 
+let val;
 val = person.firstName
 console.log(val)
 val = person.lastName
@@ -28,44 +28,28 @@ console.log(val)
 val = person['firstName']
 console.log(val)
 
-let myClass = [{
 
+let myClass = [{
     name: 'Gwel',
     age: 25
 },
 {
-
     name: 'Lucas',
     age: 16
-
 },
 {
-
-
     name: 'Jackson',
     age: 39
-
 },
 {
-
-
     name: 'Nat',
     age: 26
-
-
 },
 {
-
-
-    name: 'Yaasine',
-    age: 7
-
-    
+    name: 'Yassine',
+    age: 7   
 },
 ]
-
-
-
 
 for (let i = 0; i < myClass.length; i++) {
     console.log(myClass[i].name + " " + myClass[i].age)

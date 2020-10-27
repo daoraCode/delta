@@ -4,7 +4,6 @@ const ArraysNumber = [1, 4, 9, 34, 53, 666, 09, 123, 22, 77]
 const ArraysNumber2 = [1, 4, 9, 67, 990, 55, 90, 76, 1, 22, 45]
 const newArraysNumber = [100, 200, 300, 400]
 
-
 const fruitsArray = new Array('pomme', 'abricot', 'fraise', 'raisin', 'banane', 'poire', 'framboise')
 const mixedArray = new Array(34, false, null, undefined, {
     firstName: 'Severin',
@@ -18,7 +17,7 @@ console.log(ArraysNumber.length)
 console.log(ArraysNumber2.length)
 console.log(newArraysNumber.length)
 
-// array method : verify a boolean value if it is an array or not
+// array function : verify a boolean value if it is an array or not
 // verifier si mon tableau est bien un array
 console.log(Array.isArray(ArraysNumber))
 let result = ArraysNumber[3]
@@ -33,7 +32,7 @@ result = mixedArray[4].firstName
 console.log(result)
 
 // change a value in array
-// changer une valeurs dans un array
+// changer une valeur dans un array
 ArraysNumber[3] = [52]
 console.log(ArraysNumber[3])
 
@@ -63,7 +62,7 @@ newsArraysNumber.unshift("je me suis ajouté au début du tableau grâce à  la 
 result = newArraysNumber
 console.log(result)
 
-// retirer le premeier element d'un tableau
+// retirer le premier element d'un tableau
 newsArraysNumber.shift()
 result = newArraysNumber
 console.log(result)

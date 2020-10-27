@@ -26,7 +26,7 @@ console.log('test')
 
 
 
-//les cinq types de données à connaître absolument en javascript
+// les cinq types de données à connaître absolument en javascript
 // boolean
 // null
 // undefined
@@ -61,8 +61,9 @@ console.log('test')
 //     age: 26,
 // }
 
-// // comment je reconnais un objet et un tableu
+// reconnaître un objet
 // let myObject = {}
+// reconnaître un array (on parle aussi de tableau)
 // let myArray = []
 
 // console.log(object.firstName)
@@ -70,13 +71,10 @@ console.log('test')
 
 console.log('----------------------')
 
-
-
-
 // string, number , bool, objet= tableau de string
 
 var object = {
-    num: 25, // number
+    age: 25, // number
     name: 'Alexandre', // string
     majority: true, // bool
 

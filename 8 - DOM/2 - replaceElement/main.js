@@ -12,11 +12,7 @@ let oldElement = ul.children[1]
 // ---------// -------> let old Element = document.getElementbyI('list').children[1]
 ul.replaceChild(newElement, oldElement)
 
-
-
-
-
-
+// 
 // ----------------- PARTIE 2 autre façon ------------------ //
 let newElement2 = document.createElement('li')
 newElement2.textContent = "Me voilà de retour, c'est encore Séverin"
