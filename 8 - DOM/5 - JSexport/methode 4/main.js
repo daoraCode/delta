@@ -1,6 +1,6 @@
 'use strict';
 
-import expDefaut,{severin, arraysNumber, newArraysNumber, fruitsArray, mixedArray} from './export.js'
+import expDefaut,{severin, arraysNumber, newArraysNumber, fruitsArray, mixedArray} from '../methode 4/export.js'
 
 
 console.log(severin)

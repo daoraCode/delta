@@ -12,11 +12,13 @@ export const fruitsArray = new Array('pomme',
                                      'poire',
                                      'framboise')
 
-const expDefaut;
+
 
 export const mixedArray = new Array(29, false, null, undefined, {
     firstName: 'Severin',
     lastName: 'Mboukou'
 })
+
+const expDefaut
 
 export default expDefaut = "Je suis de nouveau l'exporté par défaut"

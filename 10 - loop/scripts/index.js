@@ -16,7 +16,7 @@ for (let b = 0; b <= 5; b++) {
 }
 
 
-for (let c = 0 ; c < 10; c++) {
+for (let c = 0; c < 10; c++) {
     if (c == 2) {
         console.log(`je m'incruste`)
         break;
