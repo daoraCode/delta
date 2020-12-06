@@ -17,7 +17,7 @@ console.log("----------------------")
 let js = "Javascript";
 console.log("Aujourd'hui, j'apprends le " + js + " avec Seral le formateur simplon");
 
-let someWords = "Aujourd'hui, j'apprends le " + js + "avec Seral le formateur simplon";
+let someWords = "Aujourd'hui, j'apprends le " + js + " avec Seral le formateur simplon";
 console.log(someWords)
 console.log("----------------------")
 

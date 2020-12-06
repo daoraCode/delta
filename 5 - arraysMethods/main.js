@@ -1,4 +1,4 @@
-console.log('test arrays')
+console.log('test arrays');
 
 const ArraysNumber = [1, 4, 9, 34, 53, 666, 09, 123, 22, 77]
 const ArraysNumber2 = [1, 4, 9, 67, 990, 55, 90, 76, 1, 22, 45]
@@ -17,8 +17,8 @@ console.log(ArraysNumber.length)
 console.log(ArraysNumber2.length)
 console.log(newArraysNumber.length)
 
-// array function : verify a boolean value if it is an array or not
 // verifier si mon tableau est bien un array
+// array function : verify a boolean value if it is an array or not
 console.log(Array.isArray(ArraysNumber))
 let result = ArraysNumber[3]
 console.log(result)
@@ -31,8 +31,8 @@ console.log(result)
 result = mixedArray[4].firstName
 console.log(result)
 
-// change a value in array
 // changer une valeur dans un array
+// change a value in array
 ArraysNumber[3] = [52]
 console.log(ArraysNumber[3])
 
@@ -44,9 +44,9 @@ console.log(result)
 result = fruitsArray.indexOf('banane')
 console.log(result)
 
-// add an element in the end of an array
 // ajout d'un element à la fin d'un tableau
-fruitsArray.push("je viens de m'ajouté à la fin du tableu grâce à la methode: push")
+// add an element in the end of an array
+fruitsArray.push("je viens m'ajoute à la fin du tableau grâce à la methode : push()")
 result = fruitsArray
 console.log(result)
 
@@ -62,7 +62,8 @@ newsArraysNumber.unshift("je me suis ajouté au début du tableau grâce à  la 
 result = newArraysNumber
 console.log(result)
 
-// retirer le premier element d'un tableau
+// retirer le premier element du tableau
+// remove the first value from the array
 newsArraysNumber.shift()
 result = newArraysNumber
 console.log(result)

@@ -12,15 +12,15 @@ console.log('test')
 // console.log(b)
 
 
-// la valeur  assignée ne change pas, c'est pourquoi il y a eu une erreur
+// la valeur assignée ne changera pas car c'est une constante, c'est pourquoi il affiche une erreur
 // const c = "william"
 // console.log(c)
-// c = "seral"
+// c = "leslie"
 // console.log(c)
 
 
 // const myArray = [1, 2, 3]
-// myArray = [1, 2 ,3]
+// myArray = [1, 2, 3]
 // myArray.push(4)
 // console.log(myArray)
 
@@ -40,8 +40,8 @@ console.log('test')
 // console.log(prenom)
 // let age = 26;
 // console.log(age)
-// let IdontKnow;
-// console.log(IdontKnow)
+// let iDontKnow;
+// console.log(iDontKnow)
 // let bool = true;
 // console.log(typeof bool)
 // let notANumber = 7 * 'davidson';
@@ -81,11 +81,11 @@ var object = {
     // table
     otherObject : {
         job: "Web Developer",
-        children: ['Paul', 'Sophie', 'Marie', 222, 67, 'Valence'],
+        children: ['Paul', 'Sophie', 'Marie', 222, 67, 'Valence']
     }  
 };
 
-// console.log(object.num)
+// console.log(object.age)
 // console.log(object.name)
 // console.log(object.majority)
 

@@ -52,6 +52,10 @@ array2.forEach(function (item) {
     console.log(`${item}`)
 });
 
+
+
+
+
 let arrayObject5 = [{
     id: 1,
     brand: 'Bentley',
@@ -84,9 +88,12 @@ console.log(arrayPane)
 
 
 
-// map
+/* la méthode .map() regroupe chaque valeur contenue dans un tableau 
+en une seule et même nouvelle variable définie ici comme (item), 
+pour ensuite donner la possibilité à ce que l'on puisse accéder de nouveau de manière plu rapide */
+
 let getObject = arrayObject5.map(function (item) {
-    return item.model
+    return item.model;
 })
 console.log(getObject)
 

@@ -7,7 +7,6 @@ const number1 = 60,
 let result;
 
 // ADDITION
-
 result = number1 + number2;
 console.log(result)
 result = number2 - number2;

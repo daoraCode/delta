@@ -75,6 +75,7 @@ console.log(someWords.slice(10, 23))
 let takeIt = someWords.split(" ")
 console.log(takeIt)
 
+// This function allows you to replace any String to another one : replace(parameter1, parameter2);
 // Cette fonction permet de remplacer n'importe quelle chaîne de caractères en une autre (paramètre à changer, paramètre à placer)
 let changeIt = someWords.replace("Aujourd'hui", "Demain")
 console.log(changeIt)
